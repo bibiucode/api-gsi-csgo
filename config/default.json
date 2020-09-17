@@ -1,0 +1,9 @@
+{
+    "app": {
+        "env": "development",
+        "jwt": {
+            "secret": "a"
+        },
+        "port": 3333
+    }
+}

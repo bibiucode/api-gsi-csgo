@@ -1,0 +1,9 @@
+{
+    "app": {
+        "env": "production",
+        "jwt": {
+            "secret": "a"
+        },
+        "port": 8080
+    }
+}
