@@ -11,7 +11,7 @@ export class CSGOController {
     @Post()
     private async post(req: Request, res: Response): Promise<Response> {
         Logger.Info(req.body);
-        console.log('DATA =>', req.body);
+        // console.log('DATA =>', req.body);
         return res.status(OK).json({ statusCode: OK });
     }
 }
